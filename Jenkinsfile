@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-            git branch: 'main','https://github.com/SaiKrishna38/Devops_jenkins.git'
+            git branch: 'main','https://github.com/SaiKrishna38/Assisgnment_2_DevopsJenkins.git'
             }
         }
         stage('Install Dependencies'){
